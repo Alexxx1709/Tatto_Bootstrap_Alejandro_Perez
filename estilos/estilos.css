@@ -6,6 +6,23 @@ body{
     overflow-x: hidden;
 }
 
+.text-color{
+    color: floralwhite;
+}
+.text-color1{
+    color: deeppink;
+}
+
+.bg-pink{
+    background-color: deeppink;
+    
+}
+.bg-pink:hover{
+    background-color: black;
+}
+
+
+
 
 /**************************** Menu ******************/
 
@@ -24,6 +41,16 @@ body{
 .carousel-inner {
     max-height: 50rem ;
 }
+
+span:hover{
+    color: deeppink;
+    font-size: 30px;
+    
+}
+
+
+
+
 
 
 @media (max-width:768px){
@@ -65,3 +92,4 @@ footer{
 address{
     color: white;
 }
+
