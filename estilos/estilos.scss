@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=montserrat&display=swap');
+
+/*Variables*/
+$c1: deeppink;
+$c2: floralwhite;
+$c3: black;
+$c4: #3f3f3f;
+
+$f1: 'montserrat', sans-serif;
+
+
+body{
+    font-family: $f1;
+    overflow-x: hidden;
+}
+
+.text-color{
+    color: $c2;
+}
+.text-color1{
+    color: $c1;
+}
+
+.bg-pink{
+    background-color: $c1;
+    
+}
+.bg-pink:hover{
+    background-color: $c3;
+}
+
+
+
+
+/**************************** Menu ******************/
+
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: $c4;
+
+}
+
+#menu form > button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-inner {
+    max-height: 50rem ;
+}
+
+.nav-link:hover{
+    color: $c1  !important;    
+    transform: scale(1.1)!important ;
+    
+}
+
+.b1{
+    border: medium solid  $c1  !important;
+    color: $c2!important;
+}
+
+
+
+
+
+
+
+@media (max-width:768px){
+    #intro{
+        width: 90% !important; 
+
+    }
+}
+
+footer {
+    background: #1b2a4e;
+    min-height: 100px;;
+}
+footer p{
+    color:$c2;
+    text-align:center;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:$c2;
+}
+main{
+    background-color: $c3;
+    opacity: 0.9;
+}
+footer{
+    background-color: $c1;
+}
+
+.if{
+    background-color: $c3;
+    height: 65vh;
+    opacity: 0.9;
+    display: flex;
+    flex-flow:column wrap;
+    align-items: center;
+}
+address{
+    color: $c2;
+}
+
