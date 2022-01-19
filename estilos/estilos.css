@@ -1,5 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=montserrat&display=swap");
 /*Variables*/
+/**********Uso de maps******/
+/**********@extend******/
+.paragraph, .parrafo {
+  color: deeppink;
+  font-size: 24px;
+  padding: 10px;
+}
+
+/**********@mixin******/
+.parrafo1 {
+  color: #f80888;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.parrafo2 {
+  color: #e002fd;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.parrafo3 {
+  color: #f50857;
+  font-size: 24px;
+  padding: 10px;
+}
+
 body {
   font-family: "montserrat", sans-serif;
   overflow-x: hidden;
@@ -44,7 +71,7 @@ body {
 }
 
 .b1 {
-  border: medium solid deeppink !important;
+  border: medium solid  deeppink  !important;
   color: floralwhite !important;
 }
 
